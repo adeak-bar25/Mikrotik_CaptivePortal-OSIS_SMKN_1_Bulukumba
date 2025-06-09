@@ -4,7 +4,11 @@ module.exports = {
     './*.html'
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'jktsans' : '"Plus Jakarta Sans", Roboto, Arial, sans-serif',
+      },
+    },
   },
   plugins: [],
 }
