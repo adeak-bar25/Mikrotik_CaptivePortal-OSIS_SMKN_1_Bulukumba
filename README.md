@@ -14,14 +14,18 @@ Repositori ini berisi laman Captive Portal/Login Hotspot untuk router Mikrotik y
 ## 👥 Kontributor
 - [Ade Akbar Magri Dinata](https://github.com/adeak-bar25) - Developer & Desainer
 
-## Lisensi
+## Lisensi dan Kredit
 
-### Kredit
-#### Atribut 
-Proyek ini menggunakan logo resmi OSIS dan MPK dari SMKN 1 Bulukumba.
-Penggunaan logo hanya untuk keperluan internal, edukatif, dan non-komersial.
+### Lisensi
+Proyek ini dilisensikan di bawah [MIT License](LICENSE).
+
+### Konten Pihak Ketiga
+Proyek ini menyertakan logo resmi organisasi OSIS dan MPK dari SMKN 1 Bulukumba yang **bukan bagian dari lisensi MIT**.
+
+Penggunaan logo OSIS dan MPK hanya untuk keperluan internal dan non-komersial.
 Seluruh hak atas logo OSIS dan MPK tetap dimiliki oleh pihak yang berwenang.
 
+### Kredit 
 #### Icon
 Proyek ini juga menggunakan pustaka ikon sumber terbuka berikut:
 

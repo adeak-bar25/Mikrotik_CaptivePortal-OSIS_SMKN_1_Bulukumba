@@ -30,4 +30,7 @@
     .btn{
         @apply bg-red-600 text-slate-50 mt-4 mb-5 px-2 py-1.5 drop-shadow-md rounded-md block hover:bg-yellow-300 hover:text-slate-950 transition-colors;
     }
+    .footer{
+        @apply text-sm text-center my-4 mx-auto md:absolute bottom-0 inset-x-0 max-md:text-xs p-4;
+    }
 }

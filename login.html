@@ -42,7 +42,7 @@
     <div class="h-full mx-auto">
             <div class="w-full lg:flex lg:justify-between lg:h-dvh box-border">
                 <div class="lg:flex-none lg:self-center flex items-center md:justify-center lg:flex-col lg:items-start">
-                    <div class="brand sticky w-fit left-0 my-3 bg-slate-50 dark:bg-slate-700 flex box-content py-3 px-4 rounded-r-full md:rounded-full lg:rounded-l-none drop-shadow-sm md:justify-center md:static  ">
+                    <div class="brand sticky w-fit left-0 my-3 bg-slate-50 dark:bg-slate-700 flex box-content py-3 px-4 rounded-r-full md:rounded-full lg:rounded-l-none drop-shadow-sm md:justify-center md:static  animate-slide-f-l">
                         <img src="asset/logo/LogoOSIS.png" alt="" class="w-20 pr-2 lg:w-48 lg:pr-5 border-r border-gray-900">
                         <img src="asset/logo/LogoMPK.png" alt="" class="w-20 pl-2 lg:w-48 lg:pl-5">
                     </div>
@@ -50,7 +50,7 @@
                     <p class="hidden lg:block ml-5">OSIS/MPK SMKN 1 Bulukumba</p>
 
                 </div>
-            <div class="px-3 h-full lg:pr-5 lg:pl-7 flex flex-col lg:justify-center lg:rounded-l-xl max-w-lg mx-auto lg:mx-0 lg:self-center lg:box-content lg:bg-white lg:dark:bg-slate-900 lg:overflow-scroll">
+            <div class="px-3 h-full lg:pr-5 lg:pl-7 flex flex-col lg:justify-center lg:rounded-l-xl max-w-lg mx-auto lg:mx-0 lg:self-center lg:box-content lg:bg-white lg:dark:bg-slate-900 lg:overflow-scroll animate-float-f-b">
                 <h1 class="text-5xl font-bold my-3">Login</h1>
                 <p>Masukkan login credential yang diberikan oleh admin untuk mengakses jaringan ini.</p>
                 <form name="login" action="$(link-login-only)" method="post" $(if chap-id) onSubmit="return doLogin()" $(endif) class="[&_input]:block">
@@ -100,7 +100,7 @@
                     <!-- $(if trial == 'yes')Free Trial Tersedia !, <a href="$(link-login-only)?dst=$(link-orig-esc)&amp;username=T-$(mac-esc)">Klik Disini</a>.$(endif)  -->
 
                 </form>
-                <p class="info bt text-sm text-center mb-4">Captive Portal/Login Hotspot &copy;<span id="year">2025</span> OSIS/MPK SMKN 1 Bulukumba</p>
+                <p class="info bt text-sm text-center mb-4 max-md:text-xs px-3">Captive Portal/Login Hotspot <br>&copy;<span id="year">2025</span> OSIS/MPK SMKN 1 Bulukumba</p>
             </div>
         </div>
     </div>

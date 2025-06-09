@@ -33,18 +33,18 @@ $(endif)
 <body class="relative" $(if advert-pending == 'yes') onLoad="openAdvert()" $(endif)>
     <div class="ie-fixMinHeight">
         <div class="main">
-            <div class="brand sticky w-fit left-0 my-3 bg-slate-50 dark:bg-slate-700 flex box-content py-3 px-4 rounded-r-full sm:rounded-full lg:rounded-l-none drop-shadow-sm md:justify-center md:static sm:mx-auto lg:mx-0">
+            <div class="brand sticky w-fit left-0 my-3 bg-slate-50 dark:bg-slate-700 flex box-content py-3 px-4 rounded-r-full sm:rounded-full lg:rounded-l-none drop-shadow-sm md:justify-center md:static sm:mx-auto lg:mx-0 animate-slide-f-l">
                 <img src="asset/logo/LogoOSIS.png" alt="" class="w-20 pr-2 lg:w-32 lg:pr-5 border-r border-gray-900">
                 <img src="asset/logo/LogoMPK.png" alt="" class="w-20 pl-2 lg:w-32 lg:pl-5">
             </div>
-            <div class="wrap px-4">
+            <div class="wrap px-4 animate-float-f-b">
                 $(if login-by == 'trial')
                     <!-- <h1 class="font-bold text-4xl">Halo Trial User<span class="time"></span>!</h1> -->
                 $(elif login-by != 'mac')
                     <!-- <h1 class="page-title">Halo, <span id="username">rio</span>!</h1> -->
                     <h1 class="page-title">Halo, <span id="username" class="bg-gradient-to-r from-red-600 via-orange-500 to-yellow-400 bg-clip-text text-transparent">$(username)</span><span class="time"></span>!</h1>
                 $(endif)                
-                <h2 class="text-2xl font-bold mb-3">Selamat Datang Di Dashboard</h2>
+                <h2 class="text-lg font-bold mb-3">Selamat Datang Di Dashboard!</h2>
                 <form action="$(link-logout)" name="logout" onSubmit="return openLogout()">
                     <!-- <table>
                         <tr><td>IP address</td><td>$(ip)</td></tr>
@@ -95,7 +95,7 @@ $(endif)
                 </form>
             </div>
         </div>
-        <p class="info bt text-sm text-center my-4 mx-auto md:absolute bottom-0 inset-x-0">Captive Portal/Login Hotspot &copy;<span id="year">2025</span> OSIS/MPK SMKN 1 Bulukumba</p>
+        <p class="footer">Captive Portal/Login Hotspot <br>&copy;<span id="year">2025</span> OSIS/MPK SMKN 1 Bulukumba</p>
     </div>
     <script>
         const timedom = document.querySelector('.time');
